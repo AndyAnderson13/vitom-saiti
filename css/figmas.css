@@ -1,0 +1,85 @@
+body{
+    font-weight: 200;
+}
+
+h3 {
+    display: inline-block;
+    font-size: 28px;
+    color: #199159;
+    width: 50%;
+    margin-left: 10%;
+}
+
+span {
+    display: inline-block;
+    font-size: 18px;
+    margin: 20px;
+}
+
+#basket {
+    padding: 10px 18px;
+    border-radius: 7px;
+    background-color:#0c9153;
+}
+
+hr {
+    width: 80%;
+    color: #818182;
+}
+
+h1 {
+    font-weight: 300;
+    margin-left: 10%;
+    display: inline-block;
+    font-size: 56px;
+}
+
+#ItemsQuantity{
+    font-size: 22px;
+    font-weight: 10;
+}
+
+div.products {
+    border: solid 2px;
+    border-color: #818182;
+    display: inline-flex;
+    flex-wrap: wrap;
+    border-radius: 20px;
+    position: relative;;
+    margin-left: 10%;
+    margin-top: 45px;
+    background-color: #e6e6e6;
+    overflow: hidden;
+    height: 160px;
+    width: 47%;
+}
+
+span.ProductTitle {
+    display: inline-block;
+    margin-left: 10px;
+    position: relative;
+    top: 0px;
+    left: 18px;
+    flex-grow: 1;
+    font-weight: 500;
+    font-size: 24px;
+}
+
+span.Total {
+    font-size: 24px;
+    font-weight: 500;
+}
+
+div.OrderSummary {
+    display: inline-flex;
+    flex-direction: column;
+    border: solid 2px;
+    border-color: #818182;
+    border-radius: 20px;
+    position: absolute;
+    right: 10%;
+    top: 32%;
+    height: 38%;
+    background-color: #e6e6e6;
+    width: 28%;
+}
