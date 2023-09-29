@@ -39,47 +39,12 @@ h1 {
     font-weight: 10;
 }
 
-div.products {
-    border: solid 2px;
-    border-color: #818182;
-    display: inline-flex;
-    flex-wrap: wrap;
-    border-radius: 20px;
-    position: relative;;
+.container {
+    max-height: 600px;
+    height: 100%;
     margin-left: 10%;
-    margin-top: 45px;
-    background-color: #e6e6e6;
-    overflow: hidden;
-    height: 160px;
-    width: 47%;
-}
-
-span.ProductTitle {
-    display: inline-block;
-    margin-left: 10px;
-    position: relative;
-    top: 0px;
-    left: 18px;
-    flex-grow: 1;
-    font-weight: 500;
-    font-size: 24px;
-}
-
-span.Total {
-    font-size: 24px;
-    font-weight: 500;
-}
-
-div.OrderSummary {
-    display: inline-flex;
-    flex-direction: column;
-    border: solid 2px;
-    border-color: #818182;
-    border-radius: 20px;
-    position: absolute;
-    right: 10%;
-    top: 32%;
-    height: 38%;
-    background-color: #e6e6e6;
-    width: 28%;
+    margin-right: 10%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-flow: column wrap;
 }
