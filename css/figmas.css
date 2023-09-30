@@ -40,11 +40,38 @@ h1 {
 }
 
 .container {
-    max-height: 600px;
+    max-height: 700px;
     height: 100%;
-    margin-left: 10%;
+    margin-left: 9%;
     margin-right: 10%;
     display: flex;
     flex-wrap: wrap;
     flex-flow: column wrap;
+}
+
+.products {
+    background-color: #e6e6e6;
+    border: solid #6d6d6d 2px;
+    border-radius: 40px;
+    overflow: hidden;
+    margin: 20px;
+    max-height: 160px;
+    height: 100%;
+    display: flex;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-content: stretch;
+}
+
+.ProductTitle {
+    width: 200px;
+}
+
+.Price {
+
+}
+
+.Total {
+
 }
