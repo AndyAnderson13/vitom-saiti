@@ -6,8 +6,8 @@ h3 {
     display: inline-block;
     font-size: 28px;
     color: #199159;
-    width: 50%;
-    margin-left: 10%;
+    width: 45%;
+    margin-left: 12%;
 }
 
 span {
@@ -18,18 +18,19 @@ span {
 
 #basket {
     padding: 10px 18px;
-    border-radius: 7px;
-    background-color:#0c9153;
+    border-radius: 5px;
+    background-color:#426B1F;
+    color: white;
 }
 
 hr {
-    width: 80%;
+    width: 1440px;
     color: #818182;
 }
 
 h1 {
     font-weight: 300;
-    margin-left: 10%;
+    margin-left: 12%;
     display: inline-block;
     font-size: 56px;
 }
@@ -42,7 +43,7 @@ h1 {
 .container {
     max-height: 700px;
     height: 100%;
-    margin-left: 9%;
+    margin-left: 11%;
     margin-right: 10%;
     display: flex;
     flex-wrap: wrap;
@@ -50,28 +51,87 @@ h1 {
 }
 
 .products {
-    background-color: #e6e6e6;
-    border: solid #6d6d6d 2px;
+    background-color: #FAFAF5;
+    border: solid #E6E6E6 2px;
     border-radius: 40px;
     overflow: hidden;
     margin: 20px;
-    max-height: 160px;
-    height: 100%;
     display: flex;
     align-items: flex-start;
     flex-wrap: wrap;
-    justify-content: flex-start;
     align-content: stretch;
+    font-weight: 600;
+    max-width: 821px;
+    width: 821px;
 }
 
+.erti {
+    display: flex;
+    flex-direction: column;
+    margin-right: auto;
+    justify-content: space-around;
+}
+
+input {
+    text-align: center;
+    width: 45px;
+    height: 30px;
+    margin-left: 20px;
+    border: solid 1px #e7e1e1;
+    border-radius: 15px;
+}
+
+input[type="number"]::-webkit-inner-spin-button,
+        input[type="number"]::-webkit-outer-spin-button {
+            -webkit-appearance: none;
+            margin: 0;
+        }
+
 .ProductTitle {
-    width: 200px;
+    margin-bottom: 0px;
+    font-size: 20px;
 }
 
 .Price {
-
+    font-weight: 600;
+    color: #127446;
 }
 
 .Total {
+    font-size: 20px;
+}
 
+/*yidvis meniu*/
+
+.OrderSummary {
+    background-color: #FAFAF5;
+    border: solid #E6E6E6 2px;
+    border-radius: 40px;
+    margin-top: 20px;
+    margin-right: auto;
+    width: 395px;
+}
+
+.Shejameba {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.sigane {
+    width: 40%;
+}
+
+h2 {
+    margin-left: 20px;
+    margin-bottom: auto;
+}
+
+#payment {
+    width: 347px;
+    margin-bottom: 10px;
+    height: 48px;
+    font-size: 16px;
+    background-color: #426B1F;
+    color: white;
 }
